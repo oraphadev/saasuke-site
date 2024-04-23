@@ -1,0 +1,28 @@
+{
+  "global": {
+    "metadata": {
+      "title": "Saasuke - La forma ninja de construir SaaS",
+      "description": "La forma más rápida de desarrollar y publicar soluciones completas"
+    }
+  },
+  "pages": {
+    "home": {
+      "caption": "Saasuke",
+      "title": "La forma ninja de construir SaaS",
+      "description": "La forma más rápida de desarrollar y publicar soluciones completas"
+    },
+    "demo": {
+      "caption": "Demonstração",
+      "title": "Veja como é simples",
+      "description": "Construir um SaaS nunca foi tão fácil"
+    }
+  },
+  "components": {
+    "navbar": {
+      "home": "Hogar",
+      "demo": "Demostración",
+      "pricing": "Precios",
+      "help": "Apoyo"
+    }
+  }
+}
