@@ -17,7 +17,7 @@ export const Navbar = () => {
   const t = useTranslations('components.navbar')
 
   return (
-    <header className="sticky left-0 right-0 top-0 z-30 flex-none bg-background/65 backdrop-blur dark:bg-background/75">
+    <header className="sticky left-0 right-0 top-0 z-30 flex-none bg-background/90 backdrop-blur dark:bg-background/90">
       <div className="container mx-auto flex items-center justify-between gap-3 border-b border-gray-500/10 py-4">
         <Logo />
         <div className="flex items-center gap-3">
