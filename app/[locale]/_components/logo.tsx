@@ -1,7 +1,16 @@
+'use client'
+
 import { Link } from '@/navigation.config'
+import { useWindowScroll } from '@uidotdev/usehooks'
 import Image from 'next/image'
 
 export const Logo = (): React.ReactNode => {
+  const [{ y }] = useWindowScroll()
+
+  const imageStyle = {
+    transform: `rotate(${Number(y)}deg)`,
+  }
+
   return (
     <Link href="/" className="flex items-center gap-2.5">
       <Image
@@ -9,7 +18,8 @@ export const Logo = (): React.ReactNode => {
         width={30}
         height={30}
         alt="Logo"
-        className="hover:motion-safe:animate-spin"
+        className="transition-transform duration-0 ease-in-out"
+        style={imageStyle}
       />
       <span className="hidden text-lg font-semibold sm:inline-block">
         Saasuke
