@@ -17,8 +17,8 @@ export async function generateMetadata() {
     description: t('description'),
     icons: [
       {
-        url: '/logo.svg',
-        href: '/logo.svg',
+        url: '/images/logo.svg',
+        href: '/images/logo.svg',
       },
     ],
   }

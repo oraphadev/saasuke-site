@@ -9,7 +9,7 @@
     "home": {
       "caption": "Saasuke",
       "title": "O jeito ninja de construir SaaS",
-      "description": "A maneira mais rápida de desenvolver e publicar soluções completas"
+      "description": "O template NextJS completo para você lançar seu SaaS e começar a lucrar online"
     },
     "demo": {
       "caption": "Demonstração",
@@ -23,6 +23,13 @@
       "demo": "Demonstração",
       "pricing": "Preço",
       "help": "Suporte"
+    },
+    "ctaButton": {
+      "button": "Obter Saasuke",
+      "discount": "50% de desconto para os primeiros 500 usuários"
+    },
+    "members": {
+      "counter": "357 devs ativaram o modo ninja"
     }
   }
 }

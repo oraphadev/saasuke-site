@@ -1,15 +1,15 @@
-import { Container } from '@/app/[locale]/(marketing)/_components/container'
+import { Section } from '@/app/[locale]/(marketing)/_components/section'
 import { getTranslations } from 'next-intl/server'
 
 const DemoPage = async () => {
   const t = await getTranslations('pages.demo')
 
   return (
-    <Container
+    <Section
       caption={t('caption')}
       title={t('title')}
       description={t('description')}
-    ></Container>
+    />
   )
 }
 

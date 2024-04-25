@@ -1,19 +1,23 @@
-interface ContainerProps {
+import { cn } from '@/lib/utils'
+
+interface SectionProps {
   caption?: string
   title?: string
   description?: string
-  children?: React.ReactNode
+  button?: React.ReactNode
+  classNames?: string
 }
 
-export const Container = ({
+export const Section = ({
   caption,
   title,
   description,
-  children,
-}: ContainerProps) => {
+  button,
+  classNames,
+}: SectionProps) => {
   return (
-    <div className="flex flex-1 flex-col">
-      <div className="container py-8">
+    <div className={cn('flex flex-1 flex-col', classNames)}>
+      <div className="container py-12">
         {(caption || title || description) && (
           <div className="mb-6 flex flex-col gap-2">
             {caption && (
@@ -29,9 +33,9 @@ export const Container = ({
             {description && (
               <p className="text-muted-foreground">{description}</p>
             )}
+            {button && <div className="mt-6">{button}</div>}
           </div>
         )}
-        {children}
       </div>
     </div>
   )
