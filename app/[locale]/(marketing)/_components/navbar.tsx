@@ -25,10 +25,7 @@ export const Navbar = () => {
           <ThemeSwitcher />
         </div>
       </div>
-      <Carousel
-        opts={{ dragFree: true }}
-        className="container mx-auto flex items-end gap-6 border-b border-gray-500/10 px-0"
-      >
+      <Carousel className="container mx-auto flex items-end gap-6 border-b border-gray-500/10 px-0">
         <CarouselContent className="is-navigation px-8">
           <CarouselItem className="basis-auto">
             <Link
