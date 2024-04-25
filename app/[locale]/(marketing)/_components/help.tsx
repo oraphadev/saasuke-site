@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils'
 
-interface SectionProps {
+interface HelpProps {
   caption?: string
   title?: string
   description?: string
@@ -8,15 +8,15 @@ interface SectionProps {
   classNames?: string
 }
 
-export const Section = ({
+export const Help = ({
   caption,
   title,
   description,
   button,
   classNames,
-}: SectionProps) => {
+}: HelpProps) => {
   return (
-    <div className={cn('flex flex-1 flex-col', classNames)}>
+    <div id="help" className={cn('flex flex-1 flex-col', classNames)}>
       <div className="container py-12">
         {(caption || title || description) && (
           <div className="mb-6 flex flex-col gap-2">

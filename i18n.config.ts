@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 
 export const locales = ['en-US', 'pt-BR', 'es-ES']
 export const localePrefix = 'always'
-export const defaultLocale = 'en-US'
+export const defaultLocale = 'pt-BR'
 
 export const getLocaleName = (locale: string) => {
   switch (locale) {
