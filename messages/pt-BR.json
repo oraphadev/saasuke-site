@@ -5,18 +5,6 @@
       "description": "A maneira mais rápida de desenvolver e publicar soluções completas"
     }
   },
-  "pages": {
-    "home": {
-      "caption": "Saasuke",
-      "title": "O jeito ninja de construir SaaS",
-      "description": "O template NextJS completo para você lançar seu SaaS e começar a lucrar online"
-    },
-    "demo": {
-      "caption": "Demonstração",
-      "title": "Veja como é simples",
-      "description": "Construir um SaaS nunca foi tão fácil"
-    }
-  },
   "components": {
     "navbar": {
       "home": "Início",
@@ -24,12 +12,36 @@
       "pricing": "Preço",
       "help": "Suporte"
     },
+    "hero": {
+      "caption": "Saasuke",
+      "title": "O jeito ninja de construir SaaS",
+      "description": "O template NextJS completo para você lançar seu SaaS e começar a lucrar online"
+    },
+    "demo": {
+      "caption": "Saasuke",
+      "title": "O jeito ninja de construir SaaS",
+      "description": "O template NextJS completo para você lançar seu SaaS e começar a lucrar online"
+    },
+    "pricing": {
+      "caption": "Saasuke",
+      "title": "O jeito ninja de construir SaaS",
+      "description": "O template NextJS completo para você lançar seu SaaS e começar a lucrar online",
+      "button": "Obter Saasuke"
+    },
+    "help": {
+      "caption": "Saasuke",
+      "title": "O jeito ninja de construir SaaS",
+      "description": "O template NextJS completo para você lançar seu SaaS e começar a lucrar online"
+    },
     "ctaButton": {
       "button": "Obter Saasuke",
       "discount": "50% de desconto para os primeiros 500 usuários"
     },
     "members": {
       "counter": "357 devs ativaram o modo ninja"
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados"
     }
   }
 }

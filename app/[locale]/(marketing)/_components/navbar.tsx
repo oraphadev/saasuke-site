@@ -14,7 +14,7 @@ import { useWindowScroll } from '@uidotdev/usehooks'
 import { useTranslations } from 'next-intl'
 import { useEffect, useState } from 'react'
 
-const MARGIN_TOP = 140
+const MARGIN_TOP = 118
 
 export const Navbar = () => {
   const [{ y }] = useWindowScroll()

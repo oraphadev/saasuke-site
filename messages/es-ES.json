@@ -5,18 +5,6 @@
       "description": "La forma más rápida de desarrollar y publicar soluciones completas"
     }
   },
-  "pages": {
-    "home": {
-      "caption": "Saasuke",
-      "title": "La forma ninja de construir SaaS",
-      "description": "La plantilla NextJS completa para que inicie su SaaS y comience a ganar dinero en línea"
-    },
-    "demo": {
-      "caption": "Demonstração",
-      "title": "Veja como é simples",
-      "description": "Construir um SaaS nunca foi tão fácil"
-    }
-  },
   "components": {
     "navbar": {
       "home": "Hogar",
@@ -24,12 +12,36 @@
       "pricing": "Precios",
       "help": "Apoyo"
     },
+    "hero": {
+      "caption": "Saasuke",
+      "title": "La forma ninja de construir SaaS",
+      "description": "La plantilla NextJS completa para que inicie su SaaS y comience a ganar dinero en línea"
+    },
+    "demo": {
+      "caption": "Saasuke",
+      "title": "La forma ninja de construir SaaS",
+      "description": "La plantilla NextJS completa para que inicie su SaaS y comience a ganar dinero en línea"
+    },
+    "pricing": {
+      "caption": "Saasuke",
+      "title": "La forma ninja de construir SaaS",
+      "description": "La plantilla NextJS completa para que inicie su SaaS y comience a ganar dinero en línea",
+      "button": "Obtener Saasuke"
+    },
+    "help": {
+      "caption": "Saasuke",
+      "title": "La forma ninja de construir SaaS",
+      "description": "La plantilla NextJS completa para que inicie su SaaS y comience a ganar dinero en línea"
+    },
     "ctaButton": {
-      "button": "Obtener Sasuke",
+      "button": "Obtener Saasuke",
       "discount": "50% de descuento para los primeros 500 usuarios"
     },
     "members": {
       "counter": "357 devs activaron el modo ninja"
+    },
+    "footer": {
+      "rights": "Todos los derechos reservados"
     }
   }
 }
