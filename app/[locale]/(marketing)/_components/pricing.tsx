@@ -11,7 +11,7 @@ export const Pricing = () => {
   return (
     <div id="pricing" className="flex flex-1">
       <div className="container py-12">
-        <Fade fraction={0.5} triggerOnce>
+        <Fade fraction={0.25} triggerOnce>
           <div className="flex flex-col-reverse overflow-hidden rounded-lg lg:flex-row">
             <div className="flex flex-1 flex-col bg-gray-50 p-6 dark:bg-slate-700/5 md:p-12">
               <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl md:text-2xl">
