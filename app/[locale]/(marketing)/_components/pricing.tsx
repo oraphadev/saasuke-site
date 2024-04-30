@@ -18,51 +18,39 @@ export const Pricing = () => {
                 {t('title')}
               </h3>
               <p className="mb-6 text-muted-foreground">{t('description')}</p>
-              <ul className="grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-2 xl:grid-cols-3">
+              <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3">
                 <Fade cascade duration={400} triggerOnce>
                   <li className="flex items-center gap-3">
                     <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
+                    <span>{t('list.0')}</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
+                    <span>{t('list.1')}</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
+                    <span>{t('list.2')}</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
+                    <span>{t('list.3')}</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
+                    <span>{t('list.4')}</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <BadgeCheck className="h-4 w-4 text-emerald-500" />
-                    <span>{t('title')}</span>
+                    <span>{t('list.5')}</span>
                   </li>
                 </Fade>
               </ul>
             </div>
             <div className="flex shrink-0 flex-col items-center justify-center bg-gray-100 p-12 dark:bg-slate-500/5">
-              <h4 className="mb-2 text-5xl font-bold">R$197</h4>
+              <h4 className="mb-2 text-5xl font-bold">{t('price')}</h4>
               <p className="mb-4 text-center text-xs text-muted-foreground">
-                Pay once. Build unlimited projects!
+                {t('disclaimer')}
               </p>
               <Button className="w-60 min-w-36 max-w-full">
                 <Rocket className="mr-2 h-4 w-4" />

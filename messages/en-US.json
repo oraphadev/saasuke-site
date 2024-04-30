@@ -23,10 +23,19 @@
       "description": "The complete NextJS template for you to launch your SaaS and start earning online"
     },
     "pricing": {
-      "caption": "Saasuke",
-      "title": "The ninja way to build SaaS",
-      "description": "The complete NextJS template for you to launch your SaaS and start earning online",
-      "button": "Get Saasuke"
+      "title": "Save hours of repetitive code",
+      "description": "Focus on the solution your SaaS offers and not on how to build the infrastructure",
+      "price": "$197",
+      "disclaimer": "Pay once. Build unlimited projects!",
+      "button": "Get Saasuke",
+      "list": [
+        "NextJS boilerplate",
+        "User authentication",
+        "Email sending",
+        "Stripe integration",
+        "MongoDB / Supabase",
+        "Components and animations"
+      ]
     },
     "help": {
       "caption": "Saasuke",

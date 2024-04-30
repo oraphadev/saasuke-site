@@ -23,10 +23,19 @@
       "description": "La plantilla NextJS completa para que inicie su SaaS y comience a ganar dinero en línea"
     },
     "pricing": {
-      "caption": "Saasuke",
-      "title": "La forma ninja de construir SaaS",
-      "description": "La plantilla NextJS completa para que inicie su SaaS y comience a ganar dinero en línea",
-      "button": "Obtener Saasuke"
+      "title": "Ahorre horas de código repetitivo",
+      "description": "Concéntrese en la solución que ofrece su SaaS y no en cómo construir la infraestructura",
+      "price": "$197",
+      "disclaimer": "¡Pague una vez. Construye proyectos ilimitados!",
+      "button": "Obtener Saasuke",
+      "list": [
+        "Plantilla NextJS",
+        "Autenticación de usuario",
+        "Envío de correo electrónico",
+        "Integración de Stripe",
+        "MongoDB / Supabase",
+        "Componentes y animaciones"
+      ]
     },
     "help": {
       "caption": "Saasuke",
