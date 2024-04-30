@@ -18,9 +18,9 @@
       "description": "The complete NextJS template for you to launch your SaaS and start earning online"
     },
     "demo": {
-      "caption": "Saasuke",
-      "title": "The ninja way to build SaaS",
-      "description": "The complete NextJS template for you to launch your SaaS and start earning online"
+      "caption": "Demo",
+      "title": "See Saasuke in action",
+      "description": "Save hours of development and bring your project to life"
     },
     "pricing": {
       "title": "Save hours of repetitive code",

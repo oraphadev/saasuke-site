@@ -1,6 +1,6 @@
 export const LoremIpsum = (): React.ReactNode => {
   return (
-    <div className="container py-12">
+    <div className="container py-20">
       <p className="leading-relaxed text-muted-foreground">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
         officiis autem maiores vitae adipisci ad est voluptatum suscipit.

@@ -6,7 +6,7 @@ export const Help = async () => {
 
   return (
     <div id="help" className="flex flex-1">
-      <div className="container py-12">
+      <div className="container py-20">
         <div className="flex flex-col gap-2">
           <div className="flex-1 text-sm font-semibold text-primary">
             {t('caption')}

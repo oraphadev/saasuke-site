@@ -1,9 +1,11 @@
+'use client'
+
 import { Star } from 'lucide-react'
-import { getTranslations } from 'next-intl/server'
+import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 
-export const Members = async (): Promise<JSX.Element> => {
-  const t = await getTranslations('components.members')
+export const Members = () => {
+  const t = useTranslations('components.members')
 
   return (
     <div className="flex items-center gap-3">
