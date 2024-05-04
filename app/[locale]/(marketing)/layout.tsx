@@ -4,7 +4,10 @@ import { PropsWithChildren } from 'react'
 
 const LandingPageLayout = ({ children }: PropsWithChildren) => {
   return (
-    <main id="lading-page">
+    <main
+      id="lading-page"
+      className="before:bg-noise before:pointer-events-none before:fixed before:inset-0 before:z-[999999] before:block before:bg-[length:200px_auto] before:opacity-30 before:content-['']"
+    >
       <Navbar />
       {children}
       <Footer />

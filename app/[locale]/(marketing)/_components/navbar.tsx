@@ -65,7 +65,7 @@ export const Navbar = () => {
   }, [])
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/75">
+    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur-xl supports-[backdrop-filter]:bg-background/75">
       <div className="container mx-auto flex items-center justify-between gap-3 border-b border-gray-500/10 py-4">
         <Logo />
         <div className="flex items-center gap-3">
